@@ -1,3 +1,2 @@
 #!/bin/bash
-g++ -std=c++11 main.cpp atom.cpp -o out
-./out
+g++ -std=c++11 -I`pwd`/head/ `pwd`/src/*.cpp -o out

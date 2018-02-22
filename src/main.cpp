@@ -14,5 +14,4 @@ int main(){
 			atomall(i,j).setr(0.1*r_min);
 		}
   	updatelist(atomall,size);
-    updatetensor(atomall,size);
 }
